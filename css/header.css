@@ -1,11 +1,21 @@
 .header-bg {
   background-color: #000;
 }
+.logo-mobile {
+  display: none;
+}
+.container {
+  padding-left: 60px;
+  margin: 0 auto;
+}
 ul.flex-items {
   font-size: 1rem;
 }
 ul.flex-items li {
   position: relative;
+}
+ul.flex-items li a {
+  color: #fff;
 }
 ul.flex-items li + li::before {
   content: "";
@@ -27,7 +37,6 @@ ul.flex-items li + li::before {
 }
 .flex-items {
   display: flex;
-  margin-left: 60px;
   padding-top: 12px;
   gap: 16px;
   align-items: center;
@@ -56,7 +65,7 @@ ul.flex-items li + li::before {
   display: grid;
 }
 .grid-header form input {
-  transition: .3s;
+  transition: 0.3s;
   border: none;
   width: 40vw;
   height: 40px;
@@ -75,7 +84,7 @@ ul.flex-items li + li::before {
   margin-top: 12px;
   cursor: pointer;
 }
-.grid-header form label:hover{
+.grid-header form label:hover {
   transform: scale(1.1);
 }
 .grid-header form input:hover,
@@ -89,6 +98,12 @@ ul.flex-items li + li::before {
   font-size: 0.8rem;
   display: flex;
   gap: 16px;
+}
+.reference a {
+  color: #fff;
+}
+.client-header a {
+  color: #fff;
 }
 .reference li {
   transition: 0.3s;
@@ -122,4 +137,31 @@ ul.flex-items li + li::before {
 
   position: absolute;
   background: url("../img/svg/seta-baixo.svg") no-repeat;
+}
+@media (max-width: 1230px) {
+  .reference li:last-child {
+    display: none;
+  }
+}
+@media (max-width: 1110px) {
+  .grid-header form input {
+    width: 30vw;
+  }
+  .reference li {
+    display: none;
+  }
+  .container {
+    padding-left: 20px;
+  }
+}
+@media (max-width: 950px) {
+  .client-header a p {
+    display: none;
+  }
+  .grid-header form input {
+    width: 40vw;
+  }
+  .client-login span::before {
+    display: none;
+  }
 }

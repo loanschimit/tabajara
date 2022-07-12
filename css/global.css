@@ -3,8 +3,11 @@
   padding: 0;
   list-style: none;
   text-decoration: none;
-  color: #fff;
-  font-family: "Roboto", sans-serif;
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  background: #ededed;
+  padding-bottom: 1000px;
 }
 input:focus {
   box-shadow: 0 0 0 0;

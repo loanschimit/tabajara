@@ -1,0 +1,40 @@
+.categorias {
+  color: #000;
+}
+.categorias h1 {
+  background: #f9c449;
+  text-align: center;
+  padding: 4px 0;
+}
+.categorias a {
+  color: #000;
+}
+.categorias-select {
+  display: flex;
+  background: #fff;
+  justify-content: center;
+  padding-top: 12px;
+  padding-bottom: 16px;
+  gap: 24px;
+
+}
+.categorias-select li {
+  display: grid;
+  text-align: center;
+  min-width: 70px;
+}
+.categorias-select a{
+  max-width: 12ch;
+}
+.categorias-select img{
+  transition: .3s;
+}
+
+.categorias-select img:hover{
+  transform: scale(1.1);
+}
+@media (max-width: 1100px){
+  .categorias-select{
+    overflow-x: scroll;
+  }
+}

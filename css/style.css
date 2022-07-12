@@ -1,2 +1,5 @@
-@import "global.css"; 
+@import "global.css";
 @import "header.css";
+@import "categorias.css";
+@import "promo.css";
+@import "queima-estoque.css";
