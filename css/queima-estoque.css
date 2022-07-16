@@ -17,26 +17,38 @@
   gap: 20px;
 }
 .timer span {
+  text-align: center;
   line-height: 2rem;
   background: #000;
-  padding: 4px 12px;
+  padding: 4px 16px 4px 12px;
   color: #fff;
   font-family: "Montserrat", sans-serif;
   border-radius: 3px;
   max-width: 16px;
 }
+.produtos-section {
+  overflow: hidden;
+  /* overflow-x: scroll; */
+}
+.queima-produtos {
+  margin: 20px 20px;
+  margin-right: 0;
+  display: flex;
+  gap: 16px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 
+  padding-left: 20px;
+}
 .etiqueta {
   width: 300px;
-  margin-top: 20px;
-  margin-left: 20px;
   background: #fff;
   border-radius: 30px;
-  padding-bottom: 12px;
+  padding-bottom: 4px;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-  transition: .3s;
+  transition: 0.3s;
 }
-.etiqueta:hover{
+.etiqueta:hover {
   transform: scale(1.02);
 }
 .top-etiqueta {
@@ -65,21 +77,21 @@
 }
 .mid-etiqueta .preco {
   font-family: "Montserrat";
-  font-size: 1.2rem;
-  padding: 4px 8px;
+  font-size: 0.9rem;
+  padding: 8px 8px;
   border-radius: 16px 0 0 16px;
   background: #000;
   color: #f9c449;
-  font-weight: 1000;
+  font-weight: 800;
 }
 .mid-etiqueta .preco-parcela {
   font-family: "Montserrat";
-  font-size: 0.8rem;
-  padding: 2px 4px;
+  font-size: 0.6rem;
+  padding: 4px 4px;
   border-radius: 12px 0 0 12px;
   background: #f9c449;
   color: #000;
-  font-weight: 1000;
+  font-weight: 800;
   margin-left: 21px;
   max-width: max-content;
 }
@@ -93,6 +105,7 @@
 }
 .vendidos {
   font-size: 0.8rem;
+  color: #595959;
 }
 .frete {
   font-size: 0.8rem;

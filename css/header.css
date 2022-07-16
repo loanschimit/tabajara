@@ -47,7 +47,7 @@ ul.flex-items li + li::before {
 }
 
 .header-div .logotipo {
-  margin-bottom: 20px;
+  margin-bottom: 24px;
   position: relative;
 }
 .header-div .logotipo::before {
@@ -97,7 +97,7 @@ ul.flex-items li + li::before {
   margin-bottom: 8px;
   font-size: 0.8rem;
   display: flex;
-  gap: 16px;
+  gap: 12px;
 }
 .reference a {
   color: #fff;
@@ -128,12 +128,15 @@ ul.flex-items li + li::before {
 .client-login span {
   position: relative;
 }
+.client-header p {
+  font-size: 0.8rem;
+}
 .client-login span::before {
   content: "";
   width: 72px;
   height: 72px;
-  margin-left: 4px;
-  margin-top: 8px;
+  margin-left: 80px;
+  margin-top: -10px;
 
   position: absolute;
   background: url("../img/svg/seta-baixo.svg") no-repeat;
