@@ -10,8 +10,8 @@ export default class Slide {
       final: 0,
       movimento: 0,
     };
-    console.log(this.slide.getBoundingClientRect().x);
-    console.log(this.wrapper.getBoundingClientRect().x);
+    // console.log(temporizador);
+    // tamanho da tela
   }
 
   loopArray() {
@@ -29,34 +29,29 @@ export default class Slide {
 
   moveSlide(distX) {
     this.loopArray();
-    console.log(this.slide.getBoundingClientRect().right);
-    console.log(this.wrapper.getBoundingClientRect().right);
     this.distancia.movePosition = distX; // novo objeto salvo o valor de distX
     if (
       this.loopArray()[0].getBoundingClientRect().x <=
         this.wrapper.getBoundingClientRect().x + 40 &&
       !(
-        this.loopArray()[4].getBoundingClientRect().x <=
-        this.wrapper.getBoundingClientRect().right - 355
+        this.loopArray()[12].getBoundingClientRect().right + 34 <=
+        window.innerWidth
       )
     ) {
       this.transition(false);
       this.slide.style.transform = `translate3d(${distX}px, 0, 0)`;
     } else if (
-      this.loopArray()[4].getBoundingClientRect().x <=
-      this.wrapper.getBoundingClientRect().right - 355
+      this.loopArray()[12].getBoundingClientRect().right + 34 <=
+      window.innerWidth
     ) {
       setTimeout(() => {
         this.transition(true);
         this.slide.style.transform = `translate3d(-${
-          this.wrapper.getBoundingClientRect().right -
-          this.slide.getBoundingClientRect().right * 1.02
+          this.wrapper.getBoundingClientRect().right
         }px, 0, 0)`;
-        this.distancia.final = -(
-          this.wrapper.getBoundingClientRect().right -
-          this.slide.getBoundingClientRect().right * 1.02
-        );
+        this.distancia.final = -this.wrapper.getBoundingClientRect().right;
       }, 400);
+      this.transition(false);
     } else {
       setTimeout(() => {
         this.transition(true);
