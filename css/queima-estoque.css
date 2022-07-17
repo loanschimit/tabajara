@@ -32,13 +32,12 @@
 }
 .queima-produtos {
   margin: 20px 20px;
-  margin-right: 0;
   display: flex;
   gap: 16px;
   padding-top: 20px;
   padding-bottom: 20px;
-
   padding-left: 20px;
+  padding-right: 20px;
 }
 .etiqueta {
   width: 300px;

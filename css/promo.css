@@ -2,6 +2,9 @@
   padding-top: 36px;
   opacity: 0;
 }
+.promo1 picture {
+  min-width: 80vw;
+}
 .promo1.ativo {
   opacity: 1;
   animation: spritLeft 1s;
@@ -13,7 +16,7 @@
   transition: 0.3s;
   display: block;
   margin: 0 auto;
-  max-width: 98%;
+  width: 90vw;
 }
 
 @keyframes spritLeft {

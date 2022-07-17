@@ -34,24 +34,39 @@ export default class Slide {
       this.loopArray()[0].getBoundingClientRect().x <=
         this.wrapper.getBoundingClientRect().x + 40 &&
       !(
-        this.loopArray()[12].getBoundingClientRect().right + 34 <=
+        this.loopArray()[this.loopArray().length - 1].getBoundingClientRect()
+          .right +
+          34 <=
         window.innerWidth
       )
     ) {
       this.transition(false);
       this.slide.style.transform = `translate3d(${distX}px, 0, 0)`;
     } else if (
-      this.loopArray()[12].getBoundingClientRect().right + 34 <=
+      this.loopArray()[this.loopArray().length - 1].getBoundingClientRect()
+        .right +
+        34 <=
       window.innerWidth
     ) {
       setTimeout(() => {
-        this.transition(true);
+        this.transition(false);
         this.slide.style.transform = `translate3d(-${
-          this.wrapper.getBoundingClientRect().right
+          -this.slide.getBoundingClientRect().x + 16
         }px, 0, 0)`;
-        this.distancia.final = -this.wrapper.getBoundingClientRect().right;
+        this.distancia.final = this.slide.getBoundingClientRect().x + 16;
       }, 400);
-      this.transition(false);
+
+      // setTimeout(() => {
+      //   this.transition(true);
+      //   this.slide.style.transform = `translate3d(-${
+      //     this.loopArray()[this.loopArray().length - 1].getBoundingClientRect()
+      //       .right
+      //   }px, 0, 0)`;
+      //   this.distancia.final =
+      //     -this.loopArray()[this.loopArray().length - 1].getBoundingClientRect()
+      //       .right;
+      // }, 400);
+      // this.transition(false);
     } else {
       setTimeout(() => {
         this.transition(true);
