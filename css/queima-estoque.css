@@ -49,6 +49,7 @@
 }
 .etiqueta:hover {
   transform: scale(1.02);
+  cursor: pointer;
 }
 .top-etiqueta {
   display: flex;
@@ -68,6 +69,7 @@
   position: relative;
 }
 .mid-etiqueta div {
+  opacity: 0.95;
   display: grid;
   text-align: end;
   position: absolute;
@@ -113,4 +115,29 @@
 .avaliacao {
   display: flex;
   gap: 4px;
+}
+.destaques {
+  background: #000;
+}
+.destaques-content h2 {
+  line-height: 0.7rem;
+  color: #f9c449;
+}
+.destaques-content h2 {
+  opacity: 0;
+  transition: 0.3s;
+}
+.destaques-content h2.ativo {
+  opacity: 1;
+  animation: destaqueSlide 0.3s;
+}
+@keyframes destaqueSlide {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, -8px, 0);
+  }
 }
