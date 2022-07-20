@@ -5,6 +5,7 @@ import ScrollAnima from "./modules/scroll-anima.js";
 import InitDateObject from "./modules/cronometro.js";
 
 const cronometro = new InitDateObject(".horas", ".minutos", ".segundos");
+cronometro.init();
 
 const slide = new Slide(".queima-produtos", ".produtos-section");
 slide.init();

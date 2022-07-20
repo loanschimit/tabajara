@@ -51,9 +51,9 @@ export default class Slide {
       setTimeout(() => {
         this.transition(false);
         this.slide.style.transform = `translate3d(-${
-          -this.slide.getBoundingClientRect().x + 4
+          -this.slide.getBoundingClientRect().x - 4
         }px, 0, 0)`;
-        this.distancia.final = this.slide.getBoundingClientRect().x + 4;
+        this.distancia.final = this.slide.getBoundingClientRect().x - 4;
       }, 400);
 
       // setTimeout(() => {

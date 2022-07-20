@@ -20,7 +20,8 @@
   text-align: center;
   line-height: 2rem;
   background: #000;
-  padding: 4px 16px 4px 12px;
+  box-sizing: border-box;
+  padding: 4px 30px 4px 14px;
   color: #fff;
   font-family: "Montserrat", sans-serif;
   border-radius: 3px;
