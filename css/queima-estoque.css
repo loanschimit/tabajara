@@ -16,20 +16,24 @@
   align-items: center;
   gap: 20px;
 }
-.timer span {
+.timer div {
+  display: flex;
   text-align: center;
-  line-height: 2rem;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
   background: #000;
+  border-radius: 3px;
   box-sizing: border-box;
-  padding: 4px 30px 4px 14px;
+}
+.timer span {
+  line-height: 2rem;
+  font-size: 1.5rem;
   color: #fff;
   font-family: "Montserrat", sans-serif;
-  border-radius: 3px;
-  max-width: 16px;
 }
 .produtos-section {
   overflow: hidden;
-  /* overflow-x: scroll; */
 }
 .queima-produtos {
   margin: 20px 20px;

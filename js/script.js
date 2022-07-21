@@ -1,8 +1,23 @@
 import Slide from "./modules/slide.js";
 
+import InitModal from "./modules/modal.js";
+
+import ScrollSuave from "./modules/scroll-suave.js";
+
 import ScrollAnima from "./modules/scroll-anima.js";
 
 import InitDateObject from "./modules/cronometro.js";
+
+import ScrollTeste from "./modules/scroll-teste.js";
+
+const modal = new InitModal(".login", ".fechar", ".body-modal");
+modal.init();
+
+const slideTeste = new ScrollTeste(".queima-produtos", ".produtos-section");
+slideTeste.init();
+
+const scrollSuave = new ScrollSuave("a[href^='#']");
+scrollSuave.init();
 
 const cronometro = new InitDateObject(".horas", ".minutos", ".segundos");
 cronometro.init();

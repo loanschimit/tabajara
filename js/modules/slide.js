@@ -55,18 +55,6 @@ export default class Slide {
         }px, 0, 0)`;
         this.distancia.final = this.slide.getBoundingClientRect().x - 4;
       }, 400);
-
-      // setTimeout(() => {
-      //   this.transition(true);
-      //   this.slide.style.transform = `translate3d(-${
-      //     this.loopArray()[this.loopArray().length - 1].getBoundingClientRect()
-      //       .right
-      //   }px, 0, 0)`;
-      //   this.distancia.final =
-      //     -this.loopArray()[this.loopArray().length - 1].getBoundingClientRect()
-      //       .right;
-      // }, 400);
-      // this.transition(false);
     } else {
       setTimeout(() => {
         this.transition(true);
@@ -99,7 +87,7 @@ export default class Slide {
     this.wrapper.removeEventListener("mousemove", this.onMove);
     this.distancia.final = this.distancia.movePosition;
   }
-
+ 
   addEventos() {
     this.wrapper.addEventListener("mousedown", this.onStart);
     this.wrapper.addEventListener("mouseup", this.onEnd);

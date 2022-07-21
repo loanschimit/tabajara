@@ -10,7 +10,17 @@
 </head>
 
 <body>
-
+  <div class="body-modal">
+    <form action="" class="modal">
+      <a href="" class="fechar"><img src="./img/svg/fechar-icon.png" alt=""></a>
+      <label for="email">Email</label>
+      <input type="email" name="email" id="email">
+      <label for="senha">Senha</label>
+      <input type="password" name="senha" id="senha">
+      <button class="button-login">Logar</button>
+      <button class="cadastrar-login">Cadastrar</button>
+    </form>
+  </div>
   <header class="header-bg">
     <div class="container">
       <ul class="flex-items help">
@@ -43,15 +53,18 @@
         </div>
         <div>
           <ul class="client-header">
-            <li class="login-cadastre-se">
+            <li class="login login-cadastre-se">
               <a href="./"><img src="./img/svg/usuario.svg" alt="icone usuario"></a>
-              <a class="client-login" href="">
+              <a class="login" class="client-login" href="">
                 <p> Faça login ou cadastre-se</p><span></span>
               </a>
+
+
+
             </li>
             <li>
               <a href="#queima-estoque"><img src="./img/svg/fogo.svg" alt="icone de fogo"></a>
-              <a href="">
+              <a href="#queima-estoque">
                 <p>Em queima de estoque</p>
               </a>
             </li>
@@ -128,9 +141,9 @@
       </span>
       <h2>QUEIMA TOTAL DE ESTOQUE</h2>
       <span class="timer">
-        <span class="horas">00</span>
-        <span class="minutos">00</span>
-        <span class="segundos">00</span>
+        <div><span class="horas">00</span></div>
+        <div><span class="minutos">00</span></div>
+        <div><span class="segundos">00</span></div>
       </span>
     </div>
 
