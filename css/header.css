@@ -1,6 +1,9 @@
 .header-bg {
   background-color: #000;
 }
+.header-bg span {
+  color: #fff;
+}
 .logo-mobile {
   display: none;
 }
@@ -26,6 +29,12 @@ ul.flex-items li + li::before {
   margin-left: -8px;
   display: block;
   position: absolute;
+}
+.redes-header img{
+  transition: .3s;
+}
+.redes-header img:hover{
+  transform: scale(1.1);
 }
 .redes-header {
   display: flex;
@@ -78,6 +87,7 @@ ul.flex-items li + li::before {
   position: relative;
   cursor: pointer;
 }
+
 .grid-header form label {
   position: absolute;
   margin-left: -40px;

@@ -14,6 +14,14 @@ import InitTooltip from "./modules/tooltip.js";
 
 const modal = new InitModal(".login", ".fechar", ".body-modal");
 modal.init();
+
+const cadastrese = new InitModal(
+  ".tela-cadastrar",
+  ".fechar",
+  ".body-cadastre-se"
+);
+cadastrese.init();
+
 const carrinho = new InitModal(
   ".abrir-carrinho",
   ".fechar-carrinho",
