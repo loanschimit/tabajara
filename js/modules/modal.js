@@ -7,7 +7,6 @@ export default class InitModal {
     // bind(this) tras ao callback para fazer referência ao obj da class(InitModal)
     this.btnToggleModal = this.btnToggleModal.bind(this);
     this.targetModal = this.targetModal.bind(this);
-    console.log(section);
   }
 
   // previne o padrão e ativa o toggleModal

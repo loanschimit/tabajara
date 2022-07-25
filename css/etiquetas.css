@@ -23,11 +23,12 @@
   position: relative;
 }
 .mid-etiqueta2 div {
+  justify-items: right;
+  width: 100px;
   display: grid;
-  text-align: end;
   position: absolute;
   margin-top: -200px;
-  margin-left: 136px;
+  margin-left: 117px;
   opacity: 0.9;
 }
 .mid-etiqueta2 .preco2 {

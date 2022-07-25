@@ -34,6 +34,7 @@
 }
 .produtos-section {
   overflow: hidden;
+  padding-right: 80px;
 }
 .queima-produtos {
   margin: 20px 20px;
@@ -74,12 +75,13 @@
   position: relative;
 }
 .mid-etiqueta div {
-  opacity: 0.95;
+  opacity: 0.92;
   display: grid;
-  text-align: end;
+  width: 110px;
+  justify-items: right;
   position: absolute;
   margin-top: -280px;
-  margin-left: 202px;
+  margin-left: 190px;
 }
 .mid-etiqueta .preco {
   font-family: "Montserrat";
@@ -91,6 +93,7 @@
   font-weight: 800;
 }
 .mid-etiqueta .preco-parcela {
+  /* width: 80px; */
   font-family: "Montserrat";
   font-size: 0.6rem;
   padding: 4px 4px;
@@ -98,7 +101,7 @@
   background: #f9c449;
   color: #000;
   font-weight: 800;
-  margin-left: 21px;
+  /* margin-left: 46px; */
   max-width: max-content;
 }
 .bot-etiqueta {
@@ -107,6 +110,7 @@
   display: grid;
 }
 .descricao-etiqueta {
+  height: 60px;
   font-size: 1rem;
 }
 .vendidos {

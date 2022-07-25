@@ -36,7 +36,7 @@ export default class Slide {
       !(
         this.loopArray()[this.loopArray().length - 1].getBoundingClientRect()
           .right +
-          34 <=
+          80 <=
         window.innerWidth
       )
     ) {
@@ -45,7 +45,7 @@ export default class Slide {
     } else if (
       this.loopArray()[this.loopArray().length - 1].getBoundingClientRect()
         .right +
-        34 <=
+        80 <=
       window.innerWidth
     ) {
       setTimeout(() => {
@@ -87,7 +87,7 @@ export default class Slide {
     this.wrapper.removeEventListener("mousemove", this.onMove);
     this.distancia.final = this.distancia.movePosition;
   }
- 
+
   addEventos() {
     this.wrapper.addEventListener("mousedown", this.onStart);
     this.wrapper.addEventListener("mouseup", this.onEnd);
