@@ -11,8 +11,6 @@ body {
 .body-carrinho.ativo {
   z-index: 2;
   display: grid;
-  /* justify-content: center; */
-  background: rgba(0, 0, 0, 0.9);
   position: absolute;
   width: 100vw;
   height: 100%;
@@ -25,7 +23,7 @@ body {
   padding: 40px;
   width: 400px;
   height: 100vw;
-  background: #fff;
+  background: rgba(255, 255, 255, 0.973);
   border-left: solid 20px #f9c449;
 }
 
@@ -67,6 +65,103 @@ body {
 .body-carrinho.ativo .button-login:hover {
   transform: scale(1.02);
 }
+
+.body-carrinho.ativo .etiqueta2 {
+  width: 400px;
+  background: #fff;
+  border-radius: 30px;
+  padding-bottom: 4px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  transition: 0.3s;
+  display: flex;
+  margin-bottom: 12px;
+}
+.body-carrinho.ativo .etiqueta2 img {
+  width: 120px;
+  height: auto;
+  border-radius: 30px;
+}
+.body-carrinho.ativo .etiqueta2:hover {
+  transform: scale(1.02);
+  cursor: pointer;
+}
+.body-carrinho.ativo .top-etiqueta2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f9c449;
+  padding: 26px 0;
+  border-radius: 30px 30px 0 0;
+}
+
+.body-carrinho.ativo .mid-etiqueta2 {
+  position: relative;
+}
+.body-carrinho.ativo h3 {
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  position: relative;
+  max-width: max-content;
+}
+.body-carrinho.ativo h3::before {
+  content: "";
+  /* display: block; */
+  position: absolute;
+  margin-top: 18px;
+  width: 100%;
+  height: 4px;
+  background: linear-gradient(180deg, #e96114 0%, #ffb200 100%);
+}
+.body-carrinho.ativo .mid-etiqueta2 div {
+  justify-items: right;
+  width: 100px;
+  display: grid;
+  position: absolute;
+  margin-top: -72px;
+  margin-left: 300px;
+  opacity: 0.9;
+}
+/* .body-carrinho.ativo .mid-etiqueta2 .preco2 {
+  font-family: "Montserrat";
+  font-size: 0.7rem;
+  padding: 8px 8px;
+  border-radius: 16px 0 0 16px;
+  background: #000;
+  color: #f9c449;
+  font-weight: 800;
+}
+.body-carrinho.ativo .mid-etiqueta2 .preco-parcela2 {
+  font-family: "Montserrat";
+  font-size: 0.5rem;
+  padding: 4px 4px;
+  border-radius: 12px 0 0 12px;
+  background: #f9c449;
+  color: #000;
+  font-weight: 800;
+  margin-left: 21px;
+  max-width: max-content;
+}
+.body-carrinho.ativo .bot-etiqueta2 {
+  padding-bottom: 12px;
+  display: grid;
+  margin-left: 8px;
+}
+.body-carrinho.ativo .descricao-etiqueta2 {
+  font-size: 0.9rem;
+}
+.body-carrinho.ativo .vendidos2 {
+  font-size: 0.7rem;
+  color: #595959;
+}
+.body-carrinho.ativo .frete2 {
+  font-size: 0.7rem;
+  color: #a00000;
+}
+.body-carrinho.ativo .avaliacao2 {
+  display: flex;
+}
+
 @keyframes sprit {
   from {
     opacity: 0;
@@ -77,8 +172,8 @@ body {
     transform: translate3d(0, 0, 0);
   }
 }
-.itens-carrinho{
+.itens-carrinho {
   display: flex;
   justify-content: center;
   margin-top: 20px;
-}
+} */
