@@ -27,7 +27,7 @@ export default class Slide {
   // novoMetodo() {
   // referencia https://developer.mozilla.org/pt-BR/docs/Web/API/GlobalEventHandlers/onscroll
 
-  moveSlide(distX) {
+  moveSlide(distX, event) {
     this.loopArray();
     this.distancia.movePosition = distX; // novo objeto salvo o valor de distX
     if (
@@ -76,8 +76,14 @@ export default class Slide {
     this.wrapper.addEventListener("mousemove", this.onMove);
     // console.log(this.slide.getBoundingClientRect().x)
   }
-
+  // onMouseOver(event) {
+  //   document.body.addEventListener("mouseover", (event) => {
+  //     console.log(event.target.id !== "verificador");
+  //   });
+  //   return event.target.id !== "verificador";
+  // }
   onMove(event) {
+    // this.onMouseOver(event);
     const finalPosition = this.updatePosition(event.clientX);
     this.moveSlide(finalPosition);
   }

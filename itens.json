@@ -1,0 +1,126 @@
+[
+  {
+    "pag1": [
+      {
+        "item1": {
+          "descricao": "Camisa de moleton creme listrada, manga justa, rei de espadas",
+          "vendidos": "2377 Vendidos",
+          "frete": "Frete Gratis",
+          "preco": "R$ 49,90",
+          "parcela": "ou 10x 4,99",
+          "img": "./img/produto/camisa-K.jpg"
+        }
+      },
+      {
+        "item1": {
+          "descricao": "Conjunto de meias, 3 meias 100% algodão, cores diferentes, confortavel",
+          "vendidos": "1851 Vendidos",
+          "frete": "Frete Gratis",
+          "preco": "R$ 9,90",
+          "parcela": "ou 1x 9,90",
+          "img": "./img/produto/meia.jpg"
+        }
+      },
+      {
+        "item1": {
+          "descricao": "Relogio masculino touchscreen, multifunções, corrente de aço",
+          "vendidos": "58 Vendidos",
+          "frete": "Frete: R$ 3,36",
+          "preco": "R$ 79,90",
+          "parcela": "ou 10x 7,99",
+          "img": "./img/produto/relogio-tela-touch-change.jpg"
+        }
+      },
+      {
+        "item1": {
+          "descricao": "Placa mãe B550m, otimo desempenho para jogos, suporte alto de memoria",
+          "vendidos": "0 Vendidos",
+          "frete": "Frete: R$ 45,37",
+          "preco": "R$ 799,90",
+          "parcela": "ou 10x 79,99",
+          "img": "./img/produto/placa-mae.jpg"
+        }
+      },
+      {
+        "item1": {
+          "descricao": "Vestido feminino florido suspenso no pescoço, curto e sensual",
+          "vendidos": "348 Vendidos",
+          "frete": "Frete: R$ 1,64",
+          "preco": "R$ 49,90",
+          "parcela": "ou 10x 4,99",
+          "img": "./img/produto/vestidoflorido.jpg"
+        }
+      },
+      {
+        "item1": {
+          "descricao": "Camisa de botão florida, estilosa, casual para o verão, festiva",
+          "vendidos": "52 Vendidos",
+          "frete": "Frete: R$ 1,20",
+          "preco": "R$ 29,90",
+          "parcela": "ou 10x 2,99",
+          "img": "./img/produto/camisa-de-botao-florida.jpg"
+        }
+      },
+      {
+        "item1": {
+          "descricao": "Relogio masculino digital pulseira de silicone preta, estiloso e bruto",
+          "vendidos": "59 Vendidos",
+          "frete": "Frete Gratis",
+          "preco": "R$ 29,90",
+          "parcela": "ou 10x 2,99",
+          "img": "./img/produto/relogio-digital.jpg"
+        }
+      },
+      {
+        "item1": {
+          "descricao": "Traje masculino 2 peças estilo degrade, traje esportivo e casual",
+          "vendidos": "555 Vendidos",
+          "frete": "Frete Gratis",
+          "preco": "R$ 59,90",
+          "parcela": "ou 10x 5,99",
+          "img": "./img/produto/traje-casual.jpg"
+        }
+      },
+      {
+        "item1": {
+          "descricao": "Sandália rasteirinha estilosa, cor nude com detalhe de flor e corrente",
+          "vendidos": "1596 Vendidos",
+          "frete": "Frete: R$ 1,21",
+          "preco": "R$ 19,90",
+          "parcela": "ou 10x 1,99",
+          "img": "./img/produto/rasteirinha.jpg"
+        }
+      },
+      {
+        "item1": {
+          "descricao": "Calcinha fio dental sexy, estilosa, para boas horas, varias cores e tamanhos",
+          "vendidos": "56 Vendidos",
+          "frete": "Frete Gratis",
+          "preco": "R$ 9,90",
+          "parcela": "ou 1x 9,90",
+          "img": "./img/produto/calcinha-fio-dental.jpg"
+        }
+      },
+      {
+        "item1": {
+          "descricao": "Calça de moletom justa, masculina, estilosa, varias cores",
+          "vendidos": "245 Vendidos",
+          "frete": "Frete Gratis",
+          "preco": "R$ 49,90",
+          "parcela": "ou 10x 4,90",
+          "img": "./img/produto/calca-moleton.jpg"
+        }
+      },
+      {
+        "item1": {
+          "descricao": "Isqueiro metalico preto, com regulador de chamas, combustivel colorido",
+          "vendidos": "351 Vendidos",
+          "frete": "Frete Gratis",
+          "preco": "R$ 5,90",
+          "parcela": "ou 1x 5,90",
+          "img": "./img/produto/isqueiro.jpg"
+        }
+      }
+    ]
+  }
+]
