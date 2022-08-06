@@ -9,7 +9,9 @@
 .queima-grid h2 {
   font-size: 1.1rem;
 }
-
+.queima-produtos {
+  width: 3800px;
+}
 .timer {
   display: flex;
   justify-content: center;

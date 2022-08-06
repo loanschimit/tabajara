@@ -48,7 +48,7 @@ cronometro.init();
 // const slideTeste = new ScrollTeste(".queima-produtos", ".produtos-section");
 // slideTeste.init();
 
-const initTooltip = new InitTooltip("#tooltip");
+const initTooltip = new InitTooltip(".mid-etiqueta [aria-label]");
 initTooltip.init();
 
 const slideTeste2 = new ScrollTeste(".queima-produtos2", ".produtos-section2");

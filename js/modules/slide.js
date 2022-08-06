@@ -27,10 +27,11 @@ export default class Slide {
   // novoMetodo() {
   // referencia https://developer.mozilla.org/pt-BR/docs/Web/API/GlobalEventHandlers/onscroll
 
-  moveSlide(distX, event) {
+  moveSlide(distX) {
     this.loopArray();
     this.distancia.movePosition = distX; // novo objeto salvo o valor de distX
     if (
+      !(event.target.id !== "verificador") &&
       this.loopArray()[0].getBoundingClientRect().x <=
         this.wrapper.getBoundingClientRect().x + 40 &&
       !(
@@ -49,18 +50,35 @@ export default class Slide {
       window.innerWidth
     ) {
       setTimeout(() => {
+        this.onEnd();
         this.transition(false);
         this.slide.style.transform = `translate3d(-${
           -this.slide.getBoundingClientRect().x - 4
         }px, 0, 0)`;
         this.distancia.final = this.slide.getBoundingClientRect().x - 4;
+        this.distancia.movePosition = this.slide.getBoundingClientRect().x - 4;
       }, 400);
     } else {
       setTimeout(() => {
+        // this.onMouseOver();
+
+        this.onEnd();
+        // this.distancia.movePosition = 0;
         this.transition(true);
         this.slide.style.transform = `initial`;
-        this.distancia.final = this.wrapper.getBoundingClientRect().x;
+        this.distancia.movePosition = 0;
       }, 400);
+    }
+  }
+
+  onMouseOver(event) {
+    if (event.target.id !== "verificador") {
+      this.onEnd();
+      this.transition(false);
+
+      this.slide.style.transform = `translate3d(${this.distancia.movePosition}px, 0, 0)`;
+      this.distancia.final = this.distancia.movimento;
+    } else {
     }
   }
 
@@ -76,30 +94,29 @@ export default class Slide {
     this.wrapper.addEventListener("mousemove", this.onMove);
     // console.log(this.slide.getBoundingClientRect().x)
   }
-  // onMouseOver(event) {
-  //   document.body.addEventListener("mouseover", (event) => {
-  //     console.log(event.target.id !== "verificador");
-  //   });
-  //   return event.target.id !== "verificador";
-  // }
+
   onMove(event) {
-    // this.onMouseOver(event);
+    this.onMouseOver(event);
+    const target = event.target;
     const finalPosition = this.updatePosition(event.clientX);
-    this.moveSlide(finalPosition);
+    this.moveSlide(finalPosition, target);
   }
 
   onEnd() {
     // console.log(this.wrapper.getBoundingClientRect().x)
     this.wrapper.removeEventListener("mousemove", this.onMove);
+    this.wrapper.removeEventListener("mouseover", this.onMouseOver);
     this.distancia.final = this.distancia.movePosition;
   }
 
   addEventos() {
+    this.wrapper.addEventListener("mouseover", this.onMouseOver);
     this.wrapper.addEventListener("mousedown", this.onStart);
     this.wrapper.addEventListener("mouseup", this.onEnd);
   }
 
   bindEventos() {
+    this.onMouseOver = this.onMouseOver.bind(this);
     this.onStart = this.onStart.bind(this);
     this.onMove = this.onMove.bind(this);
     this.onEnd = this.onEnd.bind(this);

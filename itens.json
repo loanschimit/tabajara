@@ -8,7 +8,16 @@
           "frete": "Frete Gratis",
           "preco": "R$ 49,90",
           "parcela": "ou 10x 4,99",
-          "img": "./img/produto/camisa-K.jpg"
+          "img": "./img/produto/camisa-K.jpg",
+          "dataset": [
+            "camisa",
+            "blusa",
+            "camiseta",
+            "manga",
+            "listrada",
+            "rei",
+            "espadas"
+          ]
         }
       },
       {
@@ -18,7 +27,18 @@
           "frete": "Frete Gratis",
           "preco": "R$ 9,90",
           "parcela": "ou 1x 9,90",
-          "img": "./img/produto/meia.jpg"
+          "img": "./img/produto/meia.jpg",
+          "dataset": [
+            "meias",
+            "pe",
+            "calçados",
+            "algodao",
+            "conjunto",
+            "tres",
+            "3",
+            "roupa",
+            "roupa masculina"
+          ]
         }
       },
       {
@@ -28,7 +48,16 @@
           "frete": "Frete: R$ 3,36",
           "preco": "R$ 79,90",
           "parcela": "ou 10x 7,99",
-          "img": "./img/produto/relogio-tela-touch-change.jpg"
+          "img": "./img/produto/relogio-tela-touch-change.jpg",
+          "dataset": [
+            "relogios",
+            "touch",
+            "multifuncoes",
+            "corrente",
+            "aco",
+            "digital",
+            "relogios e joias"
+          ]
         }
       },
       {
@@ -38,7 +67,16 @@
           "frete": "Frete: R$ 45,37",
           "preco": "R$ 799,90",
           "parcela": "ou 10x 79,99",
-          "img": "./img/produto/placa-mae.jpg"
+          "img": "./img/produto/placa-mae.jpg",
+          "dataset": [
+            "placa",
+            "mae",
+            "b550m",
+            "informatica",
+            "asus",
+            "tuf",
+            "gaming"
+          ]
         }
       },
       {
@@ -48,7 +86,16 @@
           "frete": "Frete: R$ 1,64",
           "preco": "R$ 49,90",
           "parcela": "ou 10x 4,99",
-          "img": "./img/produto/vestidoflorido.jpg"
+          "img": "./img/produto/vestidoflorido.jpg",
+          "dataset": [
+            "vestido",
+            "curto",
+            "pescoco",
+            "suspenso",
+            "florido",
+            "roupa",
+            "roupa feminina"
+          ]
         }
       },
       {
@@ -58,7 +105,18 @@
           "frete": "Frete: R$ 1,20",
           "preco": "R$ 29,90",
           "parcela": "ou 10x 2,99",
-          "img": "./img/produto/camisa-de-botao-florida.jpg"
+          "img": "./img/produto/camisa-de-botao-florida.jpg",
+          "dataset": [
+            "camisa",
+            "botao",
+            "florida",
+            "camiseta",
+            "regata",
+            "manga",
+            "aberta",
+            "roupa",
+            "roupa masculina"
+          ]
         }
       },
       {
@@ -68,7 +126,14 @@
           "frete": "Frete Gratis",
           "preco": "R$ 29,90",
           "parcela": "ou 10x 2,99",
-          "img": "./img/produto/relogio-digital.jpg"
+          "img": "./img/produto/relogio-digital.jpg",
+          "dataset": [
+            "relogios e joias",
+            "relogios",
+            "silicone",
+            "estiloso",
+            "preto"
+          ]
         }
       },
       {
@@ -78,7 +143,22 @@
           "frete": "Frete Gratis",
           "preco": "R$ 59,90",
           "parcela": "ou 10x 5,99",
-          "img": "./img/produto/traje-casual.jpg"
+          "img": "./img/produto/traje-casual.jpg",
+          "dataset": [
+            "camisa",
+            "bermuda",
+            "traje",
+            "camiseta",
+            "regata",
+            "manga",
+            "degrade",
+            "roupa",
+            "2",
+            "dois",
+            "duas",
+            "pecas",
+            "roupa masculina"
+          ]
         }
       },
       {
@@ -88,7 +168,16 @@
           "frete": "Frete: R$ 1,21",
           "preco": "R$ 19,90",
           "parcela": "ou 10x 1,99",
-          "img": "./img/produto/rasteirinha.jpg"
+          "img": "./img/produto/rasteirinha.jpg",
+          "dataset": [
+            "sapato",
+            "sapatilha",
+            "rasteirinha",
+            "sandalia",
+            "calcados",
+            "bolsas e calcados",
+            "roupa feminina"
+          ]
         }
       },
       {
@@ -98,7 +187,17 @@
           "frete": "Frete Gratis",
           "preco": "R$ 9,90",
           "parcela": "ou 1x 9,90",
-          "img": "./img/produto/calcinha-fio-dental.jpg"
+          "img": "./img/produto/calcinha-fio-dental.jpg",
+          "dataset": [
+            "calcinha",
+            "fio",
+            "dental",
+            "produto adulto",
+            "sexy",
+            "lingerie",
+            "peca intima",
+            "roupa feminina"
+          ]
         }
       },
       {
@@ -108,7 +207,16 @@
           "frete": "Frete Gratis",
           "preco": "R$ 49,90",
           "parcela": "ou 10x 4,90",
-          "img": "./img/produto/calca-moleton.jpg"
+          "img": "./img/produto/calca-moleton.jpg",
+          "dataset": [
+            "bermuda",
+            "traje",
+            "calca",
+            "roupa",
+            "moletom",
+            "roupa",
+            "roupa masculina"
+          ]
         }
       },
       {
@@ -118,7 +226,15 @@
           "frete": "Frete Gratis",
           "preco": "R$ 5,90",
           "parcela": "ou 1x 5,90",
-          "img": "./img/produto/isqueiro.jpg"
+          "img": "./img/produto/isqueiro.jpg",
+          "dataset": [
+            "isqueiro",
+            "acessorio",
+            "fumo",
+            "cigarro",
+            "eletronico",
+            "fogo"
+          ]
         }
       }
     ]
