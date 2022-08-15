@@ -15,12 +15,17 @@ import InitTooltip from "./modules/tooltip.js";
 import RegExpPesquisa from "./modules/pesquisa-regexp.js";
 
 import ItemFetch from "./modules/itensJSON.js";
-const itensFetch = new ItemFetch("[data-item]")
-itensFetch.init()
+
+import InitStorageCar from "./modules/add-cart.js";
+
+const storageCarrinho = new InitStorageCar(".addCarrinho", ".itens-carrinho", ".botaoExcluir");
+storageCarrinho.init();
+
+const itensFetch = new ItemFetch("[data-item]");
+itensFetch.init();
 
 const regexpPesquisa = new RegExpPesquisa("pesquisarProdutos");
 regexpPesquisa.init();
-
 
 const modal = new InitModal(".login", ".fechar", ".body-modal");
 modal.init();
