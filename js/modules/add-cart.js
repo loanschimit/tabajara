@@ -82,8 +82,11 @@ export default class InitStorageCar {
     const italico = document.createElement("i");
     this.itensCarrinho.appendChild(italico);
 
-    const itemTexto = this.destino.innerHTML;
-    const salvandoStorage = localStorage.setItem("itens", `${itemTexto}`);
+    setTimeout(() => {
+      const itemTexto = this.destino.innerHTML;
+
+      const salvandoStorage = localStorage.setItem("itens", `${itemTexto}`);
+    }, 0);
 
     this.destino.appendChild(this.itensCarrinho);
 
