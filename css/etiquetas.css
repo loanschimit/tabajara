@@ -15,7 +15,7 @@
   justify-content: center;
   align-items: center;
   background: #f9c449;
-  padding: 26px 0;
+  height: 46px;
   border-radius: 30px 30px 0 0;
 }
 
@@ -69,4 +69,26 @@
 }
 .avaliacao2 {
   display: flex;
+}
+.noCarro .top-etiqueta2,
+.noCarro .top-etiqueta {
+  background: #f9c449;
+  display: flex;
+  animation: deslise 0.4s;
+}
+
+.noCarro .top-etiqueta2 h3,
+.noCarro .top-etiqueta h3 {
+  display: none;
+}
+
+@keyframes deslise {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 40px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
 }
