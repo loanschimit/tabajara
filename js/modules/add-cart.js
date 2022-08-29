@@ -5,19 +5,9 @@ export default class InitStorageCar {
     this.excluir = document.querySelectorAll(".botaoExcluir");
     this.spanQnt = document.querySelector(".abrir-carrinho span");
     this.pseudoQnt = document.querySelector(".abrir-carrinho");
+    this.bodyCarrinho = document.querySelector(".body-carrinho");
   }
-  itemAdicionado(event) {
-    this.item.forEach((element) => {
-      this.descricoesExternas = element.dataset.set;
-    });
-    if (this.destino.children.length) {
-      [this.destino.children].forEach((element, index) => {
-        // this.localStorageSave();
-        const arrayElements = Array.from(element);
-      });
-    } else {
-    }
-  }
+
   pegarAtributos(event) {
     const itemClicado = event.currentTarget;
     [itemClicado].forEach((element) => {
@@ -38,13 +28,31 @@ export default class InitStorageCar {
       ];
     });
   }
+
   addClassEstilizar(event) {
     this.itemEscolhido = event.currentTarget;
     this.itemEscolhido.classList.add("noCarro");
+    if (this.itemEscolhido.classList.contains("noCarro")) {
+      this.itemEscolhido.children[0].setAttribute("href", "#header-id");
+      this.itemEscolhido.children[0].children[1].classList.add("chamarAtencao");
+    } else {
+    }
     this.itemEscolhido.children[0].children[1].src =
       "../img/svg/carrinhoPreto.svg";
     this.produtosArray = this.destino.innerHTML;
   }
+
+  addClasseAoLink(element) {
+    setTimeout(() => {
+      element.children[0].addEventListener("click", () => {
+        if (element.children[0].href === "http://127.0.0.1:5500/#header-id") {
+          this.bodyCarrinho.classList.add("ativo");
+        } else {
+        }
+      });
+    }, 200);
+  }
+
   pegarSetatt() {
     [this.destino.children].forEach((element) => {
       const arrayNova = Array.from(element);
@@ -53,6 +61,7 @@ export default class InitStorageCar {
       });
     });
   }
+
   addClassAoIniciar(element, index) {
     // console.log(element);
     this.item.forEach((itemS) => {
@@ -62,12 +71,19 @@ export default class InitStorageCar {
       if (setaItem === classesArray) {
         setTimeout(() => {
           itemS.classList.add("noCarro");
+          if (itemS.classList.contains("noCarro")) {
+            itemS.children[0].setAttribute("href", "#header-id");
+            itemS.children[0].children[1].classList.add("chamarAtencao");
+          } else {
+          }
           itemS.children[0].children[1].src = "../img/svg/carrinhoPreto.svg";
+          console.log();
         });
       } else {
       }
     });
   }
+
   removeClassEstilizar(element, index) {
     this.item.forEach((itemS) => {
       const setaItem = itemS.dataset.set;
@@ -77,12 +93,15 @@ export default class InitStorageCar {
       // console.log(itemS)
       if (setaItem === classeItemArray) {
         itemS.classList.remove("noCarro");
+        itemS.children[0].removeAttribute("href");
+        itemS.children[0].children[1].classList.remove("chamarAtencao");
         itemS.children[0].children[1].src = "../img/svg/fogo.svg";
       } else {
       }
       this.produtosArray = this.destino.innerHTML;
     });
   }
+
   criarItemCarro(event) {
     event.preventDefault();
     const terceiraClasse = event.currentTarget.classList.item(2);
@@ -188,6 +207,7 @@ export default class InitStorageCar {
     }
     this.excluirItemLS(this.excluir);
   }
+
   excluirItemLS(event) {
     const botaonovo = document.getElementsByClassName("botaoExcluir");
     const arrayBotoes = Array.from(botaonovo);
@@ -236,7 +256,7 @@ export default class InitStorageCar {
 
   adcEventos() {
     this.item.forEach((element) => {
-      this.itemAdicionado();
+      this.addClasseAoLink(element);
       element.addEventListener("dblclick", this.pegarAtributos);
       element.addEventListener("dblclick", this.criarItemCarro);
 

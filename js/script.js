@@ -18,7 +18,11 @@ import ItemFetch from "./modules/itensJSON.js";
 
 import InitStorageCar from "./modules/add-cart.js";
 
-const storageCarrinho = new InitStorageCar(".addCarrinho", ".itens-carrinho", ".botaoExcluir");
+const storageCarrinho = new InitStorageCar(
+  ".addCarrinho",
+  ".itens-carrinho",
+  ".botaoExcluir"
+);
 storageCarrinho.init();
 
 const itensFetch = new ItemFetch("[data-item]");
@@ -44,8 +48,11 @@ const carrinho = new InitModal(
 );
 carrinho.init();
 
-const scrollSuave = new ScrollSuave("a[href^='#']");
-scrollSuave.init();
+// setTimeout(() => {
+  const scrollSuave = new ScrollSuave("a[href^='#']");
+  scrollSuave.init();
+// }, 1000);
+
 
 const cronometro = new InitDateObject(".horas", ".minutos", ".segundos");
 cronometro.init();
