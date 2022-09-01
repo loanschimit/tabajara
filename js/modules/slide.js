@@ -28,6 +28,7 @@ export default class Slide {
   // referencia https://developer.mozilla.org/pt-BR/docs/Web/API/GlobalEventHandlers/onscroll
 
   moveSlide(distX) {
+    // console.log(distX);
     this.loopArray();
     this.distancia.movePosition = distX; // novo objeto salvo o valor de distX
     if (
@@ -92,6 +93,7 @@ export default class Slide {
     event.preventDefault();
     this.distancia.inicial = event.clientX;
     this.wrapper.addEventListener("mousemove", this.onMove);
+
     // console.log(this.slide.getBoundingClientRect().x)
   }
 
@@ -108,14 +110,19 @@ export default class Slide {
     this.wrapper.removeEventListener("mouseover", this.onMouseOver);
     this.distancia.final = this.distancia.movePosition;
   }
-
+  cliqueDuplo(event) {
+    this.distancia.final = this.slide.getBoundingClientRect().x - 21;
+    this.distancia.final = this.slide.getBoundingClientRect().x - 20;
+  }
   addEventos() {
+    this.wrapper.addEventListener("dblclick", this.cliqueDuplo);
     this.wrapper.addEventListener("mouseover", this.onMouseOver);
     this.wrapper.addEventListener("mousedown", this.onStart);
     this.wrapper.addEventListener("mouseup", this.onEnd);
   }
 
   bindEventos() {
+    this.cliqueDuplo = this.cliqueDuplo.bind(this);
     this.onMouseOver = this.onMouseOver.bind(this);
     this.onStart = this.onStart.bind(this);
     this.onMove = this.onMove.bind(this);

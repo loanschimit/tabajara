@@ -1,4 +1,5 @@
 export default class InitStorageCar {
+  /* ↓ Parte de construção da função onde são declaradas as constantes seletoras ↓ */
   constructor(item, destino, spanQnt) {
     this.item = document.querySelectorAll(item);
     this.destino = document.querySelector(destino);
@@ -8,6 +9,7 @@ export default class InitStorageCar {
     this.bodyCarrinho = document.querySelector(".body-carrinho");
   }
 
+  /* ↓ Pega todos os atributos do item que receber o duplo-clique, salvando todos em uma Array ↓ */
   pegarAtributos(event) {
     const itemClicado = event.currentTarget;
     [itemClicado].forEach((element) => {
@@ -29,11 +31,14 @@ export default class InitStorageCar {
     });
   }
 
+  /* ↓ Adiciona as classes e atributos para estilizar o elemento e condiciona-lo, também modifica a imagem ↓ */
   addClassEstilizar(event) {
     this.itemEscolhido = event.currentTarget;
     this.itemEscolhido.classList.add("noCarro");
     if (this.itemEscolhido.classList.contains("noCarro")) {
       this.itemEscolhido.children[0].setAttribute("href", "#header-id");
+     
+
       this.itemEscolhido.children[0].children[1].classList.add("chamarAtencao");
     } else {
     }
@@ -42,6 +47,7 @@ export default class InitStorageCar {
     this.produtosArray = this.destino.innerHTML;
   }
 
+  /* ↓ Adiciona a classe 'ativo' ao '.body-carrinho' que se abre ao clique no link ↓ */
   addClasseAoLink(element) {
     setTimeout(() => {
       element.children[0].addEventListener("click", () => {
@@ -53,6 +59,7 @@ export default class InitStorageCar {
     }, 200);
   }
 
+  /* ↓ Loop que leva o item e index para a proxima função ↓ */
   pegarSetatt() {
     [this.destino.children].forEach((element) => {
       const arrayNova = Array.from(element);
@@ -62,6 +69,7 @@ export default class InitStorageCar {
     });
   }
 
+  /* ↓ Adiciona as classes e atributos aos seus respectivos elementos que serão estilizados ↓ */
   addClassAoIniciar(element, index) {
     // console.log(element);
     this.item.forEach((itemS) => {
@@ -84,6 +92,7 @@ export default class InitStorageCar {
     });
   }
 
+  /* ↓ Ao clique no botão de excluir é removido as classes e atributos do elemento correspondente ao elemento de this.destino ↓ */
   removeClassEstilizar(element, index) {
     this.item.forEach((itemS) => {
       const setaItem = itemS.dataset.set;
@@ -102,6 +111,7 @@ export default class InitStorageCar {
     });
   }
 
+  /* ↓ Cria um item com os atributos de this.arrayAtributos ao duplo-clique ↓ */
   criarItemCarro(event) {
     event.preventDefault();
     const terceiraClasse = event.currentTarget.classList.item(2);
@@ -184,8 +194,9 @@ export default class InitStorageCar {
     }
   }
 
+  /* ↓ Salva e puxa os itens do 'localStorage' e adiciona como texto ao this.destino  ↓ */
   puxarStorageSave(index) {
-    let re = /<i><\/i><\/div>/g;
+    // let re = /<i><\/i><\/div>/g;
     const produtos = localStorage.getItem("itens");
 
     if (produtos) {
@@ -208,6 +219,7 @@ export default class InitStorageCar {
     this.excluirItemLS(this.excluir);
   }
 
+  /* ↓ Exclui o item mesmo depois dele ter sido salvo e atualizado na pagina, e salva um novo valor ao localStorage ↓ */
   excluirItemLS(event) {
     const botaonovo = document.getElementsByClassName("botaoExcluir");
     const arrayBotoes = Array.from(botaonovo);
@@ -234,6 +246,7 @@ export default class InitStorageCar {
     });
   }
 
+  /* ↓ Exclui o item que acabou de ser adicionado, e salva um novo valor ao localStorage ↓ */
   excluirItem(botao) {
     botao.addEventListener("click", (event) => {
       event.preventDefault();
@@ -254,6 +267,7 @@ export default class InitStorageCar {
     });
   }
 
+  /* ↓ Adiciona os eventos executando as funções ↓ */
   adcEventos() {
     this.item.forEach((element) => {
       this.addClasseAoLink(element);
@@ -264,6 +278,7 @@ export default class InitStorageCar {
     });
   }
 
+  /* ↓ bind para this ↓ */
   bindEvents() {
     this.pegarSetatt = this.pegarSetatt.bind(this);
     this.addClassAoIniciar = this.addClassAoIniciar.bind(this);
@@ -274,6 +289,7 @@ export default class InitStorageCar {
     this.criarItemCarro = this.criarItemCarro.bind(this);
   }
 
+  /* ↓ Inicia ↓ */
   init() {
     this.puxarStorageSave();
     this.bindEvents();
