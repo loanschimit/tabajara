@@ -17,7 +17,13 @@ import RegExpPesquisa from "./modules/pesquisa-regexp.js";
 import ItemFetch from "./modules/itensJSON.js";
 
 import InitStorageCar from "./modules/add-cart.js";
+
+// import TabNav from "./modules/nav-tab.js";
+
 import debounce from "./modules/debounce-scroll.js";
+
+// const tabnav = new TabNav(".pagSelect", ".pagina");
+// tabnav.init();
 
 const storageCarrinho = new InitStorageCar(
   ".addCarrinho",
@@ -27,7 +33,9 @@ const storageCarrinho = new InitStorageCar(
 storageCarrinho.init();
 
 const itensFetch = new ItemFetch("[data-item]");
-itensFetch.init();
+setTimeout(() => {
+  itensFetch.init();
+}, 1000);
 
 const regexpPesquisa = new RegExpPesquisa("pesquisarProdutos");
 regexpPesquisa.init();
@@ -52,12 +60,11 @@ carrinho.init();
 /* ↓ Mesmo que os itens sejam adicinados depois, ainda assim eles serão verificados. ↓ */
 setInterval(() => {
   const scrollSuave = new ScrollSuave("a[href^='#']");
-  scrollSuave.linksInternos.forEach(element=>{
+  scrollSuave.linksInternos.forEach((element) => {
     if (element) scrollSuave.init();
     else {
     }
-  })
-
+  });
 }, 400);
 
 const cronometro = new InitDateObject(".horas", ".minutos", ".segundos");

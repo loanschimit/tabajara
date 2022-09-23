@@ -236,6 +236,534 @@
             "fogo"
           ]
         }
+      },
+      {
+        "item1": {
+          "descricao": "AMD radeon rx 6600 8gb placa de vídeo gddr6 128bit rx6600 placa gráfica",
+          "vendidos": "105 Vendidos",
+          "frete": "Frete Gratis",
+          "preco": "R$ 1.125,53",
+          "parcela": "ou 10x 112,56",
+          "img": "./img/produto/Amd-radeon-rx-6600-8gb-placa-de-v-deo-gddr6-128bit-rx6600.jpg",
+          "dataset": ["placa", "video", "6600", "rx", "8g", "amd", "gaming"]
+        }
+      },
+      {
+        "item1": {
+          "descricao": "Cartão de memória 512gb 256gb 128gb 64gb 32gb 16gb 8 gb alta velocidade",
+          "vendidos": "19306 Vendidos",
+          "frete": "Frete Gratis",
+          "preco": "R$ 10,07",
+          "parcela": "ou 1x 10,07",
+          "img": "./img/produto/Mini-cart-o-de-mem-ria-512gb-256gb-128gb-64gb-32gb-16gb-8-gb-de-alta.jpg_Q90.jpg",
+          "dataset": ["placa", "video", "6600", "rx", "8g", "amd", "gaming"]
+        }
+      },
+      {
+        "item1": {
+          "descricao": "Camisa polo curta + shorts de duas peças masculino polo de manga curta",
+          "vendidos": "333 Vendidos",
+          "frete": "Frete Gratis",
+          "preco": "R$ 63,74",
+          "parcela": "ou 10x 6,38",
+          "img": "./img/produto/Camisa-polo-de-manga-curta-shorts-de-duas-pe-as-masculino-casual-terno-polo-de-manga.jpg",
+          "dataset": ["placa", "video", "6600", "rx", "8g", "amd", "gaming"]
+        }
+      },
+      {
+        "item1": {
+          "descricao": "Conjunto de lingerie intima feminina sutiã de renda calcinha bordada",
+          "vendidos": "382 Vendidos",
+          "frete": "Frete: R$ 2,26 ",
+          "preco": "R$ 45,80",
+          "parcela": "ou 10x 4,58",
+          "img": "./img/produto/Conjunto-de-roupa-interior-feminina-sexy-beleza-voltar-suti-rendas-push-up-suti-s-e-conjuntos.jpg_Q90.jpg",
+          "dataset": ["placa", "video", "6600", "rx", "8g", "amd", "gaming"]
+        }
+      },
+      {
+        "item1": {
+          "descricao": "Cueca boxer sexy roupa intima macio boxershorts de algodão masculina",
+          "vendidos": "382 Vendidos",
+          "frete": "Frete: R$ 4,35",
+          "preco": "R$ 19,98",
+          "parcela": "ou 10x 2,00",
+          "img": "./img/produto/0850-dos-homens-boxer-sexy-roupa-interior-macio-boxershorts-de-algod-o-macio-cuecas-masculinas-3d.jpg_Q90.jpg",
+          "dataset": ["placa", "video", "6600", "rx", "8g", "amd", "gaming"]
+        }
+      },
+      {
+        "item1": {
+          "descricao": "3d impresso hoodies uma peça moletom com capuz masculino unisex anime 3d",
+          "vendidos": "8 Vendidos",
+          "frete": "Frete: R$ 44,20",
+          "preco": "R$ 79,98",
+          "parcela": "ou 10x 8,00",
+          "img": "./img/produto/3d-impresso-hoodies-uma-pe-a-moletom-com-capuz-masculino-unisex-harajuku-luffy-ace-pullovers-casual.jpg_Q90.jpg",
+          "dataset": ["placa", "video", "6600", "rx", "8g", "amd", "gaming"]
+        }
+      },
+      {
+        "item1": {
+          "descricao": "60cm katana marvel deadpool espada samurai ninja modelo cosplay",
+          "vendidos": "101 Vendidos",
+          "frete": "Frete Gratis",
+          "preco": "R$ 67,82",
+          "parcela": "ou 10x 6,79",
+          "img": "./img/produto/60cm-katana-marvel-deadpool-espada-samurai-ninja-espadas-modelo-cosplay-brinquedo-pu-anime-arma-cole-o.jpg_Q90.jpg",
+          "dataset": ["placa", "video", "6600", "rx", "8g", "amd", "gaming"]
+        }
+      },
+      {
+        "item1": {
+          "descricao": "camiseta preta de borboleta 3d floral impressão casual manga curta",
+          "vendidos": "457 Vendidos",
+          "frete": "Frete Gratis",
+          "preco": "R$ 11,56",
+          "parcela": "ou 10x 1,16",
+          "img": "./img/produto/2022-nova-borboleta-senhora-camiseta-3d-floral-impress-o-em-torno-do-pesco-o-casual-nicho.jpg",
+          "dataset": ["placa", "video", "6600", "rx", "8g", "amd", "gaming"]
+        }
+      },
+      {
+        "item1": {
+          "descricao": "6 pçs/lote nova calcinha calcinha de algodão tamanho de cuecas",
+          "vendidos": "75 Vendidos",
+          "frete": "Frete Gratis",
+          "preco": "R$ 55,82",
+          "parcela": "ou 10x 5,59",
+          "img": "./img/produto/6-p-s-lote-nova-calcinha-calcinha-de-algod-o-mais-tamanho-cuecas-calcinha-bragas-mujer.jpg_Q90.jpg",
+          "dataset": ["placa", "video", "6600", "rx", "8g", "amd", "gaming"]
+        }
+      },
+      {
+        "item1": {
+          "descricao": "Carteira, bolsas de moedas moneybags vermelho carteira porta cartões",
+          "vendidos": "11 Vendidos",
+          "frete": "Frete Gratis",
+          "preco": "R$ 37,76",
+          "parcela": "ou 10x 3,78",
+          "img": "./img/produto/Mulheres-carteiras-senhora-bolsas-bolsa-de-moedas-longo-embreagem-moneybags-vermelho-carteira-id-cart-es-titular.jpg_Q90.jpg",
+          "dataset": ["placa", "video", "6600", "rx", "8g", "amd", "gaming"]
+        }
+      },
+      {
+        "item1": {
+          "descricao": "Carteira de negócios carteira de moedas personalizado carteira de cartões",
+          "vendidos": "653 Vendidos",
+          "frete": "Frete Gratis",
+          "preco": "R$ 40,42",
+          "parcela": "ou 10x 4,05",
+          "img": "./img/produto/Moda-curta-carteira-de-neg-cios-carteira-de-moedas-personalizado-carteira-de-neg-cios-dobr-vel.jpg_Q90.jpg",
+          "dataset": ["placa", "video", "6600", "rx", "8g", "amd", "gaming"]
+        }
+      },
+      {
+        "item1": {
+          "descricao": "Sexy lingerie malha e sutiã curvy sem costura deluxe pacote erótico",
+          "vendidos": "288 Vendidos",
+          "frete": "Frete Gratis",
+          "preco": "R$ 76,07",
+          "parcela": "ou 10x 7,61",
+          "img": "./img/produto/Sexy-lingerie-porn-malha-ver-atrav-s-de-tanga-e-suti-curvy-lingerie-feminina-5-pieces.jpg_Q90.jpg",
+          "dataset": ["placa", "video", "6600", "rx", "8g", "amd", "gaming"]
+        }
+      },
+      {
+        "item1": {
+          "descricao": "Sofá inflável sexo auxiliar sofá adulto bdsm cadeira para casais erótico",
+          "vendidos": "2 Vendidos",
+          "frete": "Frete: R$ 48,20",
+          "preco": "R$ 540,94",
+          "parcela": "ou 10x 55,00",
+          "img": "./img/produto/Reunindo-infl-vel-sexo-auxiliar-sof-adulto-bdsm-cadeira-para-casais-amor-posi-o-amortecimento-m.jpg_Q90.jpg",
+          "dataset": ["placa", "video", "6600", "rx", "8g", "amd", "gaming"]
+        }
+      },
+      {
+        "item1": {
+          "descricao": "Cortador de vidro para telha cerâmica jade cristal garrafa de vinho polido",
+          "vendidos": "5 Vendidos",
+          "frete": "Frete: R$ 24,61",
+          "preco": "R$ 16,40",
+          "parcela": "ou 1x 16,40",
+          "img": "./img/produto/Cortador-de-vidro-para-telha-cer-mica-jade-cristal-garrafa-de-vinho-polido-diamante-uiltra-fina.jpg_Q90.jpg",
+          "dataset": ["placa", "video", "6600", "rx", "8g", "amd", "gaming"]
+        }
+      },
+      {
+        "item1": {
+          "descricao": "Mulheres love coração impresso casual básico meninas macio mão sentir",
+          "vendidos": "25 Vendidos",
+          "frete": "Frete: R$ 2,63",
+          "preco": "R$ 40,46",
+          "parcela": "ou 10x 4,05",
+          "img": "./img/produto/Mulheres-girassol-impresso-casual-b-sico-o-pesco-o-t-camisa-jovens-meninas-macio-m-o.jpg",
+          "dataset": ["placa", "video", "6600", "rx", "8g", "amd", "gaming"]
+        }
+      },
+      {
+        "item1": {
+          "descricao": "Vestido de Outono de Manga Comprida, Turn-down Collar Single-breasted",
+          "vendidos": "2001 Vendidos",
+          "frete": "Frete: R$ 2,63",
+          "preco": "R$ 95,90",
+          "parcela": "ou 10x 9,59",
+          "img": "./img/produto/Senhora-Do-Escrit-rio-Vestido-de-Outono-de-Manga-Comprida-Vestido-de-Camisa-Moda-Turn-down.jpg_Q90.jpg",
+          "dataset": ["placa", "video", "6600", "rx", "8g", "amd", "gaming"]
+        }
+      },
+      {
+        "item1": {
+          "descricao": "Maiô feminino 2022 novo sexy tankini preto biquinis conjunto de banho",
+          "vendidos": "167 Vendidos",
+          "frete": "Frete: R$ 1,33",
+          "preco": "R$ 25,90",
+          "parcela": "ou 10x 2,59",
+          "img": "./img/produto/Mai-feminino-2022-novo-sexy-tankini-preto-s-lido-bandagem-oco-para-fora-biquinis-conjunto-de.jpg_Q90.jpg",
+          "dataset": ["placa", "video", "6600", "rx", "8g", "amd", "gaming"]
+        }
+      },
+      {
+        "item1": {
+          "descricao": "Sexy mulher micro tanga biquíni conjunto maiô lingerie biquinis lado calcinha",
+          "vendidos": "222 Vendidos",
+          "frete": "Frete Gratis",
+          "preco": "R$ 18,99",
+          "parcela": "ou 10x 1,90",
+          "img": "./img/produto/Sexy-mulher-micro-tanga-biqu-ni-conjunto-mai-lingerie-biquinis-gravata-lado-calcinha-de-tr-s.jpg_Q90.jpg",
+          "dataset": ["placa", "video", "6600", "rx", "8g", "amd", "gaming"]
+        }
+      },
+      {
+        "item1": {
+          "descricao": "Android 10.0 caixa de tv inteligente voz assistente wifi 4g, 64g",
+          "vendidos": "1304 Vendidos",
+          "frete": "Frete Gratis",
+          "preco": "R$ 213,00",
+          "parcela": "ou 10x 21,30",
+          "img": "./img/produto/Android-10-0-caixa-de-tv-inteligente-apoio-bt-voz-assistente-wifi-2-4g-5-8g.jpg_Q90.jpg",
+          "dataset": ["placa", "video", "6600", "rx", "8g", "amd", "gaming"]
+        }
+      },
+      {
+        "item1": {
+          "descricao": "Mini teclado bluetooth sem fio recarregável para ipad tablet android windows",
+          "vendidos": "9999 Vendidos",
+          "frete": "Frete Gratis",
+          "preco": "R$ 34,13",
+          "parcela": "ou 10x 3,42",
+          "img": "./img/produto/Mini-teclado-bluetooth-teclado-sem-fio-recarreg-vel-para-ipad-telefone-tablet-russo-espanhol-teclado-para.jpg_Q90.jpg",
+          "dataset": ["placa", "video", "6600", "rx", "8g", "amd", "gaming"]
+        }
+      },
+      {
+        "item1": {
+          "descricao": "Tenis Old Skool Masculino Feminino Promoção V 2807 preto e branco",
+          "vendidos": "56.000 Vendidos",
+          "frete": "Frete Gratis",
+          "preco": "R$ 36,90",
+          "parcela": "ou 10x 3,69",
+          "img": "./img/produto/tenis-nike-2022.jpg",
+          "dataset": ["placa", "video", "6600", "rx", "8g", "amd", "gaming"]
+        }
+      },
+      {
+        "item1": {
+          "descricao": "Calça e sutiã de ioga feminino sem costura personalizado para treino",
+          "vendidos": "94 Vendidos",
+          "frete": "Frete Gratis",
+          "preco": "R$ 21,97",
+          "parcela": "ou 10x 2,20",
+          "img": "./img/produto/legging-ginastic.png",
+          "dataset": ["placa", "video", "6600", "rx", "8g", "amd", "gaming"]
+        }
+      },
+      {
+        "item1": {
+          "descricao": "Atacado aparador de cabelo aparador de cabelo sem fio mini profissional",
+          "vendidos": "117 Vendidos",
+          "frete": "Frete: R$ 1,33",
+          "preco": "R$ 55,00",
+          "parcela": "ou 10x 5,50",
+          "img": "./img/produto/maquina-de-barbear-2022.jpg",
+          "dataset": ["placa", "video", "6600", "rx", "8g", "amd", "gaming"]
+        }
+      },
+      {
+        "item1": {
+          "descricao": "Calças esportivas masculinas personalizadas, camiseta, conjunto de 2 peças",
+          "vendidos": "117 Vendidos",
+          "frete": "Frete: R$ 1,00",
+          "preco": "R$ 53,00",
+          "parcela": "ou 10x 5,30",
+          "img": "./img/produto/conjunto-esportivo2022.jpg",
+          "dataset": ["placa", "video", "6600", "rx", "8g", "amd", "gaming"]
+        }
+      },
+      {
+        "item1": {
+          "descricao": "vestidos de mulheres grávidas sexy para fotografia de maternidade",
+          "vendidos": "347 Vendidos",
+          "frete": "Frete: R$ 31,00",
+          "preco": "R$ 189,00",
+          "parcela": "ou 10x 18,90",
+          "img": "./img/produto/vestido-para-photoGravida.jpg",
+          "dataset": ["placa", "video", "6600", "rx", "8g", "amd", "gaming"]
+        }
+      },
+      {
+        "item1": {
+          "descricao": "Maxi vestido feminino conjunto de 2 peças tribal, mandalas indo culture",
+          "vendidos": "349 Vendidos",
+          "frete": "Frete: R$ 3,00",
+          "preco": "R$ 89,00",
+          "parcela": "ou 10x 8,90",
+          "img": "./img/produto/traje-mandala-mantra.jpg",
+          "dataset": ["placa", "video", "6600", "rx", "8g", "amd", "gaming"]
+        }
+      },
+      {
+        "item1": {
+          "descricao": "Marca Prestige Perfume Longa Duração Perfume EDP Spray Corporal 100ml",
+          "vendidos": "998 Vendidos",
+          "frete": "Frete Gratis",
+          "preco": "R$ 195,23",
+          "parcela": "ou 10x 19,53",
+          "img": "./img/produto/212vip-perfur.jpg",
+          "dataset": ["placa", "video", "6600", "rx", "8g", "amd", "gaming"]
+        }
+      },
+      {
+        "item1": {
+          "descricao": "Novo Rx 6700 12g AMD placa gráfica para jogos 256bit Aorus 12gb",
+          "vendidos": "998 Vendidos",
+          "frete": "Frete Gratis",
+          "preco": "R$ 1111,90",
+          "parcela": "ou 10x 111,19",
+          "img": "./img/produto/placa-grafica-6700-amd.jpg",
+          "dataset": ["placa", "video", "6600", "rx", "8g", "amd", "gaming"]
+        }
+      },
+      {
+        "item1": {
+          "descricao": "Sistema de vigilância de segurança doméstica inteligente 5mp wifi",
+          "vendidos": "8 Vendidos",
+          "frete": "Frete Gratis",
+          "preco": "R$ 189,90",
+          "parcela": "ou 10x 18,90",
+          "img": "./img/produto/cameras-de-seguranca-wifi-celular.jpg",
+          "dataset": ["placa", "video", "6600", "rx", "8g", "amd", "gaming"]
+        }
+      },
+      {
+        "item1": {
+          "descricao": "Qualidade Porta a porta 2021 Can-Am Spyders F3-T Carro Pequeno",
+          "vendidos": "8 Vendidos",
+          "frete": "Frete: R$ 1000,00",
+          "preco": "R$ 2712,15",
+          "parcela": "ou 10x 271,22",
+          "img": "./img/produto/Qualidade-Porta-a-porta-2021-Can-Am-Spyders-F3-T.jpg",
+          "dataset": ["placa", "video", "6600", "rx", "8g", "amd", "gaming"]
+        }
+      },
+      {
+        "item1": {
+          "descricao": "Fairyshely sexy vestido de clube curto 2022 verão split preto bodycon estilo",
+          "vendidos": "1254 Vendidos",
+          "frete": "Frete Gratis",
+          "preco": "R$ 89,99",
+          "parcela": "ou 10x 9,00",
+          "img": "./img/produto/Fairyshely-sexy-oco-para-fora-vestido-de-clube-curto-senhoras-2022-ver-o-split-preto-bodycon.jpg_Q90.jpg",
+          "dataset": ["placa", "video", "6600", "rx", "8g", "amd", "gaming"]
+        }
+      },
+      {
+        "item1": {
+          "descricao": "Boné de beisebol do sexo feminino do sexo feminino e do sexo masculino",
+          "vendidos": "4562 Vendidos",
+          "frete": "Frete Gratis",
+          "preco": "R$ 12,42",
+          "parcela": "ou 10x 1,25",
+          "img": "./img/produto/Bon-de-beisebol-do-sexo-feminino-do-sexo-feminino-do-sexo-feminino-dos-homens-do-bon.jpg_Q9.jpg",
+          "dataset": ["placa", "video", "6600", "rx", "8g", "amd", "gaming"]
+        }
+      },
+      {
+        "item1": {
+          "descricao": "Novo braço balancim ignição automática em reta chama azul leve e criativo",
+          "vendidos": "242 Vendidos",
+          "frete": "Frete Gratis",
+          "preco": "R$ 24,99",
+          "parcela": "ou 10x 2,50",
+          "img": "./img/produto/Novo-bra-o-balancim-igni-o-autom-tica-em-linha-reta-chama-azul-mais-leve-criativo.jpg_Q90.jpg",
+          "dataset": ["placa", "video", "6600", "rx", "8g", "amd", "gaming"]
+        }
+      },
+      {
+        "item1": {
+          "descricao": "Camisa polo de manga curta de manga curta de verão carta impressão cores",
+          "vendidos": "987 Vendidos",
+          "frete": "Frete Gratis",
+          "preco": "R$ 31,41",
+          "parcela": "ou 10x 3,15",
+          "img": "./img/produto/Camisa-polo-de-manga-curta-de-manga-curta-de-ver-o-carta-impress-o-cores-polo.jpg_Q90.jpg",
+          "dataset": ["placa", "video", "6600", "rx", "8g", "amd", "gaming"]
+        }
+      },
+      {
+        "item1": {
+          "descricao": "2022 verão de duas peças da moda feminina estilo praia estilo cor sólida",
+          "vendidos": "246 Vendidos",
+          "frete": "Frete Gratis",
+          "preco": "R$ 65,36",
+          "parcela": "ou 10x 6,54",
+          "img": "./img/produto/2022-ver-o-de-duas-pe-as-da-moda-feminina-estilo-praia-f-rias-estilo-cor.jpg_Q90.jpg",
+          "dataset": ["placa", "video", "6600", "rx", "8g", "amd", "gaming"]
+        }
+      },
+      {
+        "item1": {
+          "descricao": "Quente cabido chapéu masculino legal boné de beisebol adulto plana superior",
+          "vendidos": "4000 Vendidos",
+          "frete": "Frete Gratis",
+          "preco": "R$ 34,72",
+          "parcela": "ou 10x 3,48",
+          "img": "./img/produto/2021-quente-cabido-chap-u-masculino-legal-bon-de-beisebol-adulto-plana-superior-hip-hop-chap.jpg_Q90.jpg",
+          "dataset": ["placa", "video", "6600", "rx", "8g", "amd", "gaming"]
+        }
+      },
+      {
+        "item1": {
+          "descricao": "Porta cigarros elegante, aluminio, sem cheiro acessorio, estiloso elegante",
+          "vendidos": "4 Vendidos",
+          "frete": "Frete Gratis",
+          "preco": "R$ 38,82",
+          "parcela": "ou 10x 3,89",
+          "img": "./img/produto/Caso-do-cigarro-da-liga-de-alum-nio-que-rola-bandejas-de-fumo-acess-rios-gadgets.jpg_Q90.jpg",
+          "dataset": ["placa", "video", "6600", "rx", "8g", "amd", "gaming"]
+        }
+      },
+      {
+        "item1": {
+          "descricao": "Anel masculino acessórios masculino moda masculina anel masculino aço inoxidável",
+          "vendidos": "456 Vendidos",
+          "frete": "Frete Gratis",
+          "preco": "R$ 5,26",
+          "parcela": "ou 1x 5,26",
+          "img": "./img/produto/anel-masculino-acess-rios-masculino-moda-masculina-anel-masculino-a-o-inoxid-vel-An-is-de.jpg_Q90.jpg",
+          "dataset": ["placa", "video", "6600", "rx", "8g", "amd", "gaming"]
+        }
+      },
+      {
+        "item1": {
+          "descricao": "Moda masculina verão camisa polo de manga curta personalidade impresso topo",
+          "vendidos": "82 Vendidos",
+          "frete": "Frete Gratis",
+          "preco": "R$ 17,89",
+          "parcela": "ou 10x 1,79",
+          "img": "./img/produto/Moda-masculina-ver-o-camisa-polo-de-manga-curta-personalidade-impresso-topo.jpg_Q90.jpg",
+          "dataset": ["placa", "video", "6600", "rx", "8g", "amd", "gaming"]
+        }
+      },
+      {
+        "item1": {
+          "descricao": "2022 verão feminino elegante férias lazer conjuntos terno feminino férias",
+          "vendidos": "829 Vendidos",
+          "frete": "Frete Gratis",
+          "preco": "R$ 27,89",
+          "parcela": "ou 10x 2,79",
+          "img": "./img/produto/2022-ver-o-feminino-elegante-f-rias-lazer-conjuntos-terno-feminino-f-rias-espaguete-cinta-com.jpg_Q90.jpg",
+          "dataset": ["placa", "video", "6600", "rx", "8g", "amd", "gaming"]
+        }
+      },
+      {
+        "item1": {
+          "descricao": "Verão vintage impresso sexy strppy vestido de festa feminina sem mangas",
+          "vendidos": "457 Vendidos",
+          "frete": "Frete Gratis",
+          "preco": "R$ 31,89",
+          "parcela": "ou 10x 3,19",
+          "img": "./img/produto/Ver-o-vintage-impresso-sexy-strppy-vestido-de-festa-feminina-sem-mangas-bandagem-bodycon-noite-clube.jpg_Q90.jpg",
+          "dataset": ["placa", "video", "6600", "rx", "8g", "amd", "gaming"]
+        }
+      },
+      {
+        "item1": {
+          "descricao": "marca impressão verão cor-bloqueio casual camisa polo de manga curta masculino",
+          "vendidos": "47 Vendidos",
+          "frete": "Frete Gratis",
+          "preco": "R$ 12,89",
+          "parcela": "ou 10x 1,29",
+          "img": "./img/produto/Hddhdhh-marca-impress-o-ver-o-cor-bloqueio-casual-camisa-polo-de-manga-curta-masculino.jpg_Q90.jpg",
+          "dataset": ["placa", "video", "6600", "rx", "8g", "amd", "gaming"]
+        }
+      },
+      {
+        "item1": {
+          "descricao": "Marca impressa verão calções casuais calças de praia masculinas finas soltas",
+          "vendidos": "11 Vendidos",
+          "frete": "Frete Gratis",
+          "preco": "R$ 13,00",
+          "parcela": "ou 10x 1,30",
+          "img": "./img/produto/Marca-impressa-ver-o-cal-es-casuais-cal-as-de-praia-masculinas-finas-soltas-cinco-cal.jpg_Q90.jpg",
+          "dataset": ["placa", "video", "6600", "rx", "8g", "amd", "gaming"]
+        }
+      },
+      {
+        "item1": {
+          "descricao": "2022 masculino impressão 3d manga curta shorts de duas peças abstrato pintado",
+          "vendidos": "112 Vendidos",
+          "frete": "Frete Gratis",
+          "preco": "R$ 20,00",
+          "parcela": "ou 10x 2,00",
+          "img": "./img/produto/2022-masculino-impress-o-3d-manga-curta-shorts-de-duas-pe-as-abstrato-pintado-t-shirts.jpeg_Q90.jpg",
+          "dataset": ["placa", "video", "6600", "rx", "8g", "amd", "gaming"]
+        }
+      },
+      {
+        "item1": {
+          "descricao": "Venda quente sólido camisas masculinas camisetas de manga curta streetwear",
+          "vendidos": "988 Vendidos",
+          "frete": "Frete Gratis",
+          "preco": "R$ 20,00",
+          "parcela": "ou 10x 2,00",
+          "img": "./img/produto/Venda-quente-s-lido-camisas-masculinas-camisetas-de-manga-curta-streetwear-roupas-masculinas-com-z-per.jpg_Q90.jpg",
+          "dataset": ["placa", "video", "6600", "rx", "8g", "amd", "gaming"]
+        }
+      },
+      {
+        "item1": {
+          "descricao": "8/9/11/12/16/19 peças conjunto de tosquiadeira de unhas manicure cortadores",
+          "vendidos": "61 Vendidos",
+          "frete": "Frete Gratis",
+          "preco": "R$ 6,00",
+          "parcela": "ou 1x 6,00",
+          "img": "./img/produto/8-9-11-12-16-19-pe-as-conjunto-de-tosquiadeira-de-unhas-manicure-cortadores-de.jpg_Q90.jpg",
+          "dataset": ["placa", "video", "6600", "rx", "8g", "amd", "gaming"]
+        }
+      },
+      {
+        "item1": {
+          "descricao": "2022 verão novo curto-mangas compridas camisetas 3d padrões de impressão",
+          "vendidos": "621 Vendidos",
+          "frete": "Frete Gratis",
+          "preco": "R$ 12,00",
+          "parcela": "ou 1x 12,00",
+          "img": "./img/produto/2022-ver-o-novo-curto-mangas-compridas-camisetas-3d-padr-es-de-impress-o-rua-moda.jpg_Q90.jpg",
+          "dataset": ["placa", "video", "6600", "rx", "8g", "amd", "gaming"]
+        }
+      },
+      {
+        "item1": {
+          "descricao": "Rosa vermelha preto branco sexy renda lingerie bodysuit três pontos underwearse",
+          "vendidos": "62991 Vendidos",
+          "frete": "Frete Gratis",
+          "preco": "R$ 21,00",
+          "parcela": "ou 1x 21,00",
+          "img": "./img/produto/Rosa-vermelha-preto-branco-sexy-renda-lingerie-bodysuit-tr-s-pontos-underwearsee-er-tico-atrav-s.jpg_Q90.jpg",
+          "dataset": ["placa", "video", "6600", "rx", "8g", "amd", "gaming"]
+        }
       }
     ]
   }

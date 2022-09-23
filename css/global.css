@@ -15,4 +15,7 @@ input:focus {
 label {
   cursor: pointer;
 }
+a{
+  color: black;
+}
 

@@ -73,7 +73,7 @@ body {
   transform: scale(1.1);
 }
 .body-carrinho.ativo .cadastrar-login {
-  background: #000;
+  background: linear-gradient(#1b1b1a, #000);
   color: #ccc;
   border: none;
   width: 380px;
@@ -82,7 +82,7 @@ body {
   border-radius: 30px;
   margin-left: 20px;
   margin-top: 8px;
-  border: 4px solid #f9c449;
+  border: 2.5px solid #f9c449;
   transition: 0.3s;
 }
 .body-carrinho.ativo .cadastrar-login:hover,
@@ -99,6 +99,8 @@ body {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   transition: 0.3s;
   display: flex;
+  height: auto;
+
   margin-bottom: 12px;
 }
 .body-carrinho.ativo .etiqueta2 img {
@@ -120,6 +122,7 @@ body {
 }
 
 .body-carrinho.ativo .mid-etiqueta2 {
+  height: auto;
   position: relative;
 }
 .body-carrinho.ativo h3 {
@@ -143,8 +146,8 @@ body {
   width: 100px;
   display: grid;
   position: absolute;
-  margin-top: -72px;
-  margin-left: 300px;
+  margin-top: 30px;
+  margin-left: 580px;
   opacity: 0.9;
 }
 
@@ -163,7 +166,6 @@ body {
   border-radius: 50%;
   background: #e96114;
 }
-
 
 @keyframes viewX {
   from {
